@@ -12,7 +12,7 @@
 				<!-- ### Header Start ### -->
 
 				<div id="header">
-					<img src="images/onion.jpg" alt="Me" align="middle" width="571" height="140"/>
+					<img src="images/onion.jpg" alt="The Onion Logo" align="middle" width="571" height="140"/>
 					<h1><a href="/">SimpleGreen</a></h1>
 					<p>Just another free CSS template</p>
 				</div>
@@ -48,9 +48,9 @@
 						<ul>
 							<li>Why - Looking for comic relief to relieve stress</li>
 							<li>Who - Cautiously Optimic person who follows current events</li>
-							<li>What - Using a mobile phone</li>
+							<li>What - Use a mobile phone</li>
 							<li>When - Usually during work hours</li>
-							<li>Where - At work</li>
+							<li>Where - At work on own device in order to escape IT detection.</li>
 						</ul>
 						
 						<h2>Interaction Flow:</h2>
@@ -74,6 +74,8 @@
 						<h4>Article - Media</h4>
 						<p>One Article can have several Media (in this case 1) and one Media entity can have many articles.  Therefore this is many to many relationship.</p>
 
+						<h2>ERD (Logical Model):</h2>
+						<img src="images/erd.svg" alt="Logical Model"  />
 						
 						<form action="#" method="post" id="commentform">
 							<p><input type="text" id="author" name="author" value="" size="25" />
